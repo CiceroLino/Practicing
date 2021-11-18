@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Nunito', sans-serif;
+}
+
+nav {
+  height: 10vh;
+}
+
+.hero-background {
+  background: url('https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') no-repeat fixed  center/cover;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.7);
+  height: 90vh;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.primary-text {
+  color: #a5a5d8;
+}
+
+.history-container {
+  height: 60vh;
+}
+
+.history-img {
+  background: url('https://images.unsplash.com/photo-1613845784859-b4be6962c08c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80') no-repeat center center/cover;
+}
+
+.features {
+  height: 35vh;
+}
+
+.features .bg-primary {
+  background: #a5a5d8 !important;
+}

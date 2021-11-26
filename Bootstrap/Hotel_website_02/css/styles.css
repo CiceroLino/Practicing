@@ -14,6 +14,21 @@ nav {
   height: 10vh;
 }
 
+textarea {
+  resize: none;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
 .nav-link {
   color: #fff;
   font-size: 1.1rem;
@@ -25,6 +40,21 @@ nav {
 
 .current {
   color: var(--primary-color) !important;
+}
+
+.bg-primary {
+  background: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background:rgb(219, 219, 231) !important;
+}
+
+.feature-card, .contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Home Page */
@@ -57,8 +87,12 @@ nav {
   height: 35vh;
 }
 
-.features .bg-primary {
-  background: var(--primary-color) !important;
+/* Contact Page */
+.contact-form {
+  height: 80vh;
 }
 
-/* About */
+.form-control:focus {
+  border: 1px solid var(--primary-color);
+  box-shadow: none;
+}
